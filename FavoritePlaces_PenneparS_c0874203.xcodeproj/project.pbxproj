@@ -47,6 +47,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		992EA85F2980C7E700DE5983 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99D694952980BAC1009E3DB9 /* FavoritePlaces_PenneparS_c0874203.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		992EA8602980C7EF00DE5983 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99D694922980BAC1009E3DB9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		992EA8612980C7F500DE5983 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99D694902980BAC1009E3DB9 /* ViewController.swift */,
+				99D694A42980BB4A009E3DB9 /* LocationSearchTable.swift */,
+				99D694A32980BB4A009E3DB9 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		992EA8622980C7FD00DE5983 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D694A62980BB4A009E3DB9 /* CoreDataManager.swift */,
+				99D694A52980BB4A009E3DB9 /* LocationPlaceManager.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		99D694802980BAC1009E3DB9 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +101,15 @@
 		99D6948B2980BAC1009E3DB9 /* FavoritePlaces_PenneparS_c0874203 */ = {
 			isa = PBXGroup;
 			children = (
+				992EA8622980C7FD00DE5983 /* Support Files */,
+				992EA8612980C7F500DE5983 /* Controller */,
+				992EA8602980C7EF00DE5983 /* View */,
+				992EA85F2980C7E700DE5983 /* Model */,
 				99D6948C2980BAC1009E3DB9 /* AppDelegate.swift */,
 				99D6948E2980BAC1009E3DB9 /* SceneDelegate.swift */,
-				99D694902980BAC1009E3DB9 /* ViewController.swift */,
-				99D694922980BAC1009E3DB9 /* Main.storyboard */,
-				99D694A62980BB4A009E3DB9 /* CoreDataManager.swift */,
-				99D694A52980BB4A009E3DB9 /* LocationPlaceManager.swift */,
-				99D694A42980BB4A009E3DB9 /* LocationSearchTable.swift */,
-				99D694A32980BB4A009E3DB9 /* MapViewController.swift */,
 				99D694982980BAC3009E3DB9 /* Assets.xcassets */,
 				99D6949A2980BAC3009E3DB9 /* LaunchScreen.storyboard */,
 				99D6949D2980BAC3009E3DB9 /* Info.plist */,
-				99D694952980BAC1009E3DB9 /* FavoritePlaces_PenneparS_c0874203.xcdatamodeld */,
 			);
 			path = FavoritePlaces_PenneparS_c0874203;
 			sourceTree = "<group>";
